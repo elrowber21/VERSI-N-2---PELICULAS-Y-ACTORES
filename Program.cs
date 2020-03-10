@@ -15,8 +15,8 @@ namespace Peli
     }
     class Peliculas
    {
-    public string Titulo, Director, Pais;
-    public int Año;
+    private string Titulo, Director, Pais;
+    private int Año;
 
     List<Actor> LA=new List<Actor>();
     public void AgregaActores(Actor NA)
